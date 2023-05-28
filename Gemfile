@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll"
 gem "bundler"
 gem "bundle-audit"
 gem "faraday-retry"
@@ -19,13 +19,14 @@ gem "minima"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed"
-  gem "jekyll-gist"
-  gem "jekyll-github-metadata"
   gem "jekyll-link-attributes"
   gem "jekyll-optional-front-matter"
-  gem "jekyll-relative-links"
-  gem "jekyll-seo-tag"
+  gem "jekyll-gist"
+  gem "jekyll-github-metadata"
   gem "jekyll-sitemap"
+  gem "jekyll-seo-tag"
+  gem "jekyll-relative-links"
+  gem "nokogiri"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
