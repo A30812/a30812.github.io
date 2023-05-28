@@ -13,12 +13,18 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
+_site
 !.vscode/extensions.json
-.idea
+.bundle
 .DS_Store
-*.suo
-*.ntvs*
+.idea
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+.vscode/*
 *.njsproj
+*.ntvs*
 *.sln
+*.suo
 *.sw?
+vendor

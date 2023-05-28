@@ -1,0 +1,16 @@
+/* Footer */
+
+footer,
+footer>a {
+  padding: 1.5rem 0;
+  margin-top: 1.5rem;
+  background-color: var(--bs-secondary);
+  color: var(--bs-gray-200);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.copyright {
+  background-color: var(--bs-secondary);
+}
