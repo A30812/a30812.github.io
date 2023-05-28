@@ -121,6 +121,7 @@ DEPENDENCIES
   jekyll-relative-links
   jekyll-seo-tag
   jekyll-sitemap
+  kramdown-parser-gfm (~> 1.1)
   minima
   nokogiri
   tzinfo (>= 1, < 3)
