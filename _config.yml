@@ -4,7 +4,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ethics of Self-Driving Cars - Safety and Liability
+title: Ethics of Self-Driving Cars
+subtitle: Safety and Liability
 description: >- # this means to ignore newlines until "baseurl:"
   COMP501 Assignment 3
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -15,7 +16,7 @@ color_scheme: "light"
 
 # Build settings
 markdown: kramdown
-destination: docs
+destination: docs/
 sass:
   sass_dir: _sass
   style: compressed
