@@ -10,27 +10,24 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "a30812.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "https://a30812.github.io"
-# github_username: jekyll
+logo: "/assets/0812_wide.svg"
+color_scheme: "light"
 
 # Build settings
 markdown: kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
-theme: minima
+# sass:
+#   sass_dir: _sass
+#   style: compressed
+# theme: just-the-docs
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-gist
   - jekyll-github-metadata
   - jekyll-link-attributes
   - jekyll-optional-front-matter
   - jekyll-relative-links
-  - nokogiri
-
-postcss:
-  cache: false
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing
 exclude:
@@ -61,3 +58,6 @@ external_links:
   enabled: true
   rel: external
   target: _top
+
+aux_links:
+  GitHub Repository: https://github.com/a30812/a30812.github.io/
