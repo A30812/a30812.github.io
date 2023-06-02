@@ -15,10 +15,10 @@ color_scheme: "light"
 
 # Build settings
 markdown: kramdown
-# sass:
-#   sass_dir: _sass
-#   style: compressed
-# theme: just-the-docs
+destination: docs
+sass:
+  sass_dir: _sass
+  style: compressed
 plugins:
   - jekyll-feed
   - jekyll-gist
