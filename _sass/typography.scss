@@ -5,7 +5,8 @@ h1,
 .text-alpha {
   @include fs-8;
 
-  font-weight: 300;
+  font-weight: 600;
+  padding-bottom: 1rem;
 }
 
 h2,
@@ -60,4 +61,15 @@ h6,
 
 .text-right {
   text-align: right !important;
+}
+
+.text-header {
+  @include fs-7;
+
+  color: $green-100;
+  font-weight: 900;
+  margin: 0;
+  padding: 0.6rem 0;
+  border-bottom: $border $border-color;
+  text-align: center;
 }

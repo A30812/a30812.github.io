@@ -19,6 +19,8 @@
 
     .nav-list-link {
       display: block;
+      font-weight: 800;
+      font-size: 1rem;
       min-height: $nav-list-item-height-sm;
       padding-top: $sp-1;
       padding-bottom: $sp-1;
@@ -50,8 +52,8 @@
       }
 
       &.active {
-        font-weight: 600;
-        text-decoration: none;
+        text-decoration: underline;
+        color: $green-100;
       }
 
       &:hover,
@@ -60,7 +62,7 @@
           -90deg,
           rgba($feedback-color, 1) 0%,
           rgba($feedback-color, 0.8) 80%,
-          rgba($feedback-color, 0) 100%
+          rgba($feedback-color, 0) 95%
         );
       }
     }
