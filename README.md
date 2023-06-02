@@ -4,7 +4,7 @@ Assignment 3 - Ethics of Self-Driving Cars
 
 [https://a30812.github.io/](https://a30812.github.io/)
 
-Built with [just-the-docs template](https://github.com/just-the-docs/just-the-docs-template).
+Built with [just-the-docs template] and [Jekyll].
 
 ## Licensing and Attribution
 
@@ -15,13 +15,7 @@ The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party 
 ----
 
 [Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
+[just-the-docs template]: https://just-the-docs.github.io/just-the-docs/
 [MIT License]: https://en.wikipedia.org/wiki/MIT_License
 [starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
 [actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
