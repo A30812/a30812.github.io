@@ -1,0 +1,184 @@
+{"0": {
+    "doc": "Choices",
+    "title": "Choices",
+    "content": " ",
+    "url": "/choices.html",
+    
+    "relUrl": "/choices.html"
+  },"1": {
+    "doc": "Dylan",
+    "title": "Dylan’s Reflections",
+    "content": " ",
+    "url": "/reflections/dylan.html#dylans-reflections",
+    
+    "relUrl": "/reflections/dylan.html#dylans-reflections"
+  },"2": {
+    "doc": "Dylan",
+    "title": "Dylan",
+    "content": " ",
+    "url": "/reflections/dylan.html",
+    
+    "relUrl": "/reflections/dylan.html"
+  },"3": {
+    "doc": "Introduction",
+    "title": "Ethics of Self-Driving Cars - Safety and Liability",
+    "content": " ",
+    "url": "/#ethics-of-self-driving-cars---safety-and-liability",
+    
+    "relUrl": "/#ethics-of-self-driving-cars---safety-and-liability"
+  },"4": {
+    "doc": "Introduction",
+    "title": "Introduction and Justification",
+    "content": "Safety dominates the self-driving car narrative, representing the area of both greatest benefit and greatest concern (Kim, Park, Oh, Lee, &amp; Chung, 2019). Proponents of the technology expound the virtues of the autonomous vehicle (AV). The key talking points are compelling: an ever-vigilante machine that reacts at the speed of thought makes humans seem like apes behind the wheel. For detractors, safety is the area of greatest concern. Deep learning models are fast, but they are brittle in novel situations, and we understand their decision-making processes even less than we understand our own. Recent advances in neural network mapping may give more insight into AI decision-making in future, but this is still far removed from the level of control we are accustomed to having over safety-critical automated systems. Since the public unveiling of the Google Self-driving Car project in 2010, now Waymo, investment has been thick and fast. Now, after over a decade of delays and setbacks self-driving technology is no longer on the horizon, the push for integration is happening now. In August 2022 the British government unveiled their plan for a wider rollout of self-driving vehicles by 2025, backed by a £100 million investment to “to support industry investment and fund research on safety developments.” . New Zealand currently has such no roadmap, despite having both high car ownership and high car dependency. In the absence of government programs, usual factors such as physical isolation and a small market meant AV manufacturers had no incentive to even consider the country as a candidate testbed. However, the MOT issued a report in 2022 outlining possible impacts and as well as paths forward, and the NZTA is open to working with manufacturers interested in testing their vehicles in New Zealand. ",
+    "url": "/#introduction-and-justification",
+    
+    "relUrl": "/#introduction-and-justification"
+  },"5": {
+    "doc": "Introduction",
+    "title": "SAE five levels of automation",
+    "content": "The Society of Automated Vehicles International has defines five levels of automation, with a sixth level, zero, for unautomated vehicles. Levels 0-2 is categorised by features that support the driver, such as adaptive cruise control and lane departure warning. Even if the vehicle is controlling the acceleration, breaking, or steering of the vehicle, this classification considers that the human driver is still driving the vehicle. The classification considers the remaining three levels to be automated, and that a human in the driver’s seat is not driving whilst these features are active. At Level 3, the vehicle can drive itself, but the human driver must take over when prompted to. Whilst SAE international characterises this as a peer of more automated Levels 4 and 5, colloquially vehicles with these features are rarely considered to be ‘the self-driving car.’ . At Levels 4 and 5, vehicles can complete a trip without any driver input and are typically considered to be ‘self-driving’. Fifth level vehicles can drive themselves regardless of limitations that may be imposed on Fourth Level vehicles such as geo-fencing, poor visibility etc. Fifth level may be considered the ultimate goal of self-driving vehicle development. ",
+    "url": "/#sae-five-levels-of-automation",
+    
+    "relUrl": "/#sae-five-levels-of-automation"
+  },"6": {
+    "doc": "Introduction",
+    "title": "How does it work?",
+    "content": "The modern road environment is unpredictable and interpreting it is fundamental. To this end AVs are equipped with RADAR and LIDAR to map the depth of local environment. Camera-arrays provide a finer picture of the near environment and use parallax to judge distance which can be corroborated with range-finding sensors, and ultrasonic sensors for judging the distance to extremely close obstacles such as other cars and curbs. Inertial sensors (IMUs), odometers and GPS can judge the motion, pitch, yaw and roll of the vehicle in space independently. In the event other more precise, but more fragile, sensors be rendered inoperative the inertial sensors can also function as a failsafe to control the vehicle to a safe halt. This data is processed in real time by the OS to create a map of both the static environment, and dynamic objects within the environment. This map, or state, is combined with the vehicles state, and passed to the decision-making stack. The first stage of this stack is route planning, the vehicle generates waypoints to its destination based on the known road layout and any perceived changes. This is then passed to a behavioural layer which “reasons about the environment and generates a motion specification to progress along the selected route.” . Using the motion specification and data about the vehicle’s orientation and local space, the motion layer then plans the vehicle’s manoeuvre as a path vector. Finally, the path vector and the vehicle’s current state is used by the local feedback control layer to generate individual inputs to the vehicle itself. (Paden et al, 2016) . All four of these layers can be implemented using classical computer science solutions, such as A* for route planning, and a Finite State Machine or Markov Decision Processes for behaviour. However Deep Learning techniques such as Convoluted Neural Networks (CNNs) are particularly well suited to some tasks such as image recognition and modelling spatial information. ",
+    "url": "/#how-does-it-work",
+    
+    "relUrl": "/#how-does-it-work"
+  },"7": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"8": {
+    "doc": "Matt",
+    "title": "Matt’s Reflections",
+    "content": " ",
+    "url": "/reflections/matt.html#matts-reflections",
+    
+    "relUrl": "/reflections/matt.html#matts-reflections"
+  },"9": {
+    "doc": "Matt",
+    "title": "Matt",
+    "content": " ",
+    "url": "/reflections/matt.html",
+    
+    "relUrl": "/reflections/matt.html"
+  },"10": {
+    "doc": "Opportunities",
+    "title": "Opportunities",
+    "content": " ",
+    "url": "/opportunities.html",
+    
+    "relUrl": "/opportunities.html"
+  },"11": {
+    "doc": "Opportunities",
+    "title": "Improve road safety",
+    "content": "The improvements to road safety represents one of the brightest hopes of self-driving technology. The WHO estimated that in 2018 the number of road fatalities for that year had reached 1.35 million. It has become the leading cause of death for persons aged 5-29, and the 8th leading cause of death for all age groups, outpacing historical killers such as disease and famine. Research into road accidents tends to place human error as a cause more than 90% of the time. This may represent a bias against human judgement. With any failure not attributable to mechanical failure or an unpredictable environment defaulting to ‘blame the driver.’ Despite this, human error is undoubtedly a significant contributor to road accident. Whilst Sweden leads the world in road safety, with Stockholm having the lowest fatality rates among the European capitals, its pioneering ‘Vision Zero’ approach has only managed to reduce its road toll by 66%, not 90%. With tireless mind and superhuman senses, the AI driver seems the perfect candidate to close this gap. As an alternative to irresponsible behaviour such as driving while fatigued, distracted, intoxicated or under the effects of prescription or non-prescription drugs, self-driving cars will likely have the most to give. Resources that are currently invested into driver education and awareness campaigns would then be free to be reinvested into other avenues to improve road safety. Even the model human driver, cautious and attentive, cannot escape the decay in skill that comes with age, and like all skills there are diminishing returns and increasing costs on further instruction to improve human driving ability. Inversely, new advances in AI software and hardware will may see self-driving cars continue to improve generationally, or even over the course of the life of the vehicle via software updates. The first LASER cost as much as a small house , 40 years later the cheapest cost less than a dollar. It is conceivable that history may repeat, and sensors that are prohibitively expensive for autonomous systems now, may in future be cost-effective. ",
+    "url": "/opportunities.html#improve-road-safety",
+    
+    "relUrl": "/opportunities.html#improve-road-safety"
+  },"12": {
+    "doc": "Opportunities",
+    "title": "Safety improvements for vehicular design",
+    "content": "As the need to design cars around a human driver drops away, vehicular design may change to better accommodate existing or new needs, such as comfort or safety. Much of contemporary vehicle’s surface area is glass. This is a safety necessity for a human driver. With self-driving vehicles comes the need to externalise sensors. Once the human driver is disestablished from the vehicle’s design, glass becomes a safety risk rather than a safety necessity. Whilst still “a dream” as Nilesh Barla writing for neptune.ai puts it, vehicle-to-vehicle networking is very much an avenue that will be explored as networking technologies and algorithms improve in accuracy and efficiency. Sensor fusion already used by cutting-edge militaries like the United States to provide a more complete picture of the battlespace to soldiers. Within civilian transport infrastructure it could be used to enhance an automated vehicle’s decision making and to shore up an individual vehicle’s view of its surrounding if part of its sensor suite becomes incapable of providing the system with useful data in the event of damage, interference, jamming or blinding. ",
+    "url": "/opportunities.html#safety-improvements-for-vehicular-design",
+    
+    "relUrl": "/opportunities.html#safety-improvements-for-vehicular-design"
+  },"13": {
+    "doc": "Opportunities",
+    "title": "Protecting the most vulnerable road users",
+    "content": "Cyclists and motorcyclists are severely represented in road accidents. ",
+    "url": "/opportunities.html#protecting-the-most-vulnerable-road-users",
+    
+    "relUrl": "/opportunities.html#protecting-the-most-vulnerable-road-users"
+  },"14": {
+    "doc": "References",
+    "title": "References",
+    "content": "Holstein, T. Dodig-Crnkovic, G., &amp; Pelliccione, P. (2018). Ethical and Social Aspects of Self-Driving Cars. arXiv, 1802(04103), 2-7. https://doi.org/10.48550/arXiv.1802.04103 . Karnouskos, S. (2021). The role of utilitarianism, self-safety, and technology in the acceptance of self-driving cars. Cogn Tech Work, 23, 659–667. https://doi.org/10.1007/s10111-020-00649-6 . Sivak, M., &amp; Schoettle, B. (2015). Road Safety with Self-Driving Vehicles: General Limitations and Road Sharing with Conventional Vehicles. UMTRI, 2015(2), 9. ",
+    "url": "/references.html",
+    
+    "relUrl": "/references.html"
+  },"15": {
+    "doc": "Reflections",
+    "title": "Reflections",
+    "content": " ",
+    "url": "/reflections/reflections.html",
+    
+    "relUrl": "/reflections/reflections.html"
+  },"16": {
+    "doc": "Risks & Challenges",
+    "title": "Risks and Challenges",
+    "content": " ",
+    "url": "/risks.html#risks-and-challenges",
+    
+    "relUrl": "/risks.html#risks-and-challenges"
+  },"17": {
+    "doc": "Risks & Challenges",
+    "title": "Deep Learning Models are opaque in their decision-making",
+    "content": "Deep learning models, like those used in AI, are inherently opaque. Engineers may understand what the car sensed, and how the car responded, to a situation, but the actual decision-making occurs in a black box. This is in sharp contrast to the state-based and deterministic automated systems we are accustomed to. When these types of systems fail a decision-making process, the failure can be identified, fixed and tested with a high degree of confidence. When a deep learning model fails, the answer is simply ‘more data’. ",
+    "url": "/risks.html#deep-learning-models-are-opaque-in-their-decision-making",
+    
+    "relUrl": "/risks.html#deep-learning-models-are-opaque-in-their-decision-making"
+  },"18": {
+    "doc": "Risks & Challenges",
+    "title": "Ethical dilemmas + the trolley problem",
+    "content": " ",
+    "url": "/risks.html#ethical-dilemmas--the-trolley-problem",
+    
+    "relUrl": "/risks.html#ethical-dilemmas--the-trolley-problem"
+  },"19": {
+    "doc": "Risks & Challenges",
+    "title": "Need for new infrastructure",
+    "content": " ",
+    "url": "/risks.html#need-for-new-infrastructure",
+    
+    "relUrl": "/risks.html#need-for-new-infrastructure"
+  },"20": {
+    "doc": "Risks & Challenges",
+    "title": "Need new legal framework",
+    "content": " ",
+    "url": "/risks.html#need-new-legal-framework",
+    
+    "relUrl": "/risks.html#need-new-legal-framework"
+  },"21": {
+    "doc": "Risks & Challenges",
+    "title": "Public Acceptance",
+    "content": " ",
+    "url": "/risks.html#public-acceptance",
+    
+    "relUrl": "/risks.html#public-acceptance"
+  },"22": {
+    "doc": "Risks & Challenges",
+    "title": "Transition Period",
+    "content": "The transitory period when self-driving cars are first unleashed on public roads marks one of the greatest potential risk periods. At this time self-driving cars will be working from relatively small datasets of ‘real world’ scenarios and no amount of public messaging is going to ensure that every ‘Joe Public’ is going to respond to these new cars in a sensible manner. “It takes a long time to turn over the U.S. fleet of light-duty vehicles, with the average vehicular age currently being 11.4 years (IHS, 2014). Therefore, there will likely be at least a several-decade-long period during which conventional and self-driving vehicles would need to interact.” (Sivak et al., 2015) . During this transition period, it is important to acknowledge the risks of the coexistence between self-driving cars and conventional vehicles, as safety may worsen. A quote from Sivak states “Furthermore, in many current situations, interacting drivers of conventional vehicles make eye contact and proceed according to the feedback received from other drivers. Such feedback would be absent in interactions with self-driving vehicles.” This is due to feedback bouncing off drivers on the road to make decisions are being eliminated due to self-driving cars. ",
+    "url": "/risks.html#transition-period",
+    
+    "relUrl": "/risks.html#transition-period"
+  },"23": {
+    "doc": "Risks & Challenges",
+    "title": "Risks & Challenges",
+    "content": " ",
+    "url": "/risks.html",
+    
+    "relUrl": "/risks.html"
+  },"24": {
+    "doc": "Thomas",
+    "title": "Thomas’ Reflections",
+    "content": " ",
+    "url": "/reflections/thomas.html#thomas-reflections",
+    
+    "relUrl": "/reflections/thomas.html#thomas-reflections"
+  },"25": {
+    "doc": "Thomas",
+    "title": "Thomas",
+    "content": " ",
+    "url": "/reflections/thomas.html",
+    
+    "relUrl": "/reflections/thomas.html"
+  }
+}
