@@ -22,6 +22,7 @@ dist-ssr
 .jekyll-metadata
 .sass-cache
 .vscode/*
+#.code_workspace
 *.njsproj
 *.ntvs*
 *.sln
