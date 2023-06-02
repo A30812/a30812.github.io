@@ -841,15 +841,6 @@ blockquote {
   }
 }
 
-.site-logo {
-  width: 120%;
-  height: 120%;
-  background-image: url("/assets/0812_wide.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-}
-
 .site-button {
   display: flex;
   height: 100%;
