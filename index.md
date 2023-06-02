@@ -4,9 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-# {{site.title}}
-
-## Introduction and Justification
+# Introduction and Justification
 
 Safety dominates the self-driving car narrative, representing the area of both greatest benefit and greatest concern (Kim, Park, Oh, Lee, & Chung, 2019). Proponents of the technology expound the virtues of the autonomous vehicle (AV).
 

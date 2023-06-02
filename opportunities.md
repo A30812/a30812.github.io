@@ -1,6 +1,7 @@
 ---
 title: Opportunities
 layout: home
+permalink: /opportunities/
 nav_order: 2
 ---
 

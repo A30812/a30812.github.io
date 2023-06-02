@@ -1,8 +1,9 @@
 ---
 title: Thomas
 layout: home
-nav_order: 3
+permalink: /reflections/thomas/
 parent: Reflections
+nav_order: 3
 ---
 
 # Thomas' Reflections

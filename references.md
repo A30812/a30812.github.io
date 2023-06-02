@@ -1,6 +1,7 @@
 ---
 title: References
 layout: home
+permalink: /references/
 nav_order: 6
 ---
 

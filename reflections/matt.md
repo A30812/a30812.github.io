@@ -1,8 +1,9 @@
 ---
 title: Matt
 layout: home
-nav_order: 2
+permalink: /reflections/matt/
 parent: Reflections
+nav_order: 2
 ---
 
 # Matt's Reflections

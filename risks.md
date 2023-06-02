@@ -1,6 +1,7 @@
 ---
 title: Risks & Challenges
 layout: home
+permalink: /risks/
 nav_order: 3
 ---
 

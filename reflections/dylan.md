@@ -1,8 +1,9 @@
 ---
 title: Dylan
 layout: home
-nav_order: 1
+permalink: /reflections/dylan/
 parent: Reflections
+nav_order: 1
 ---
 
 # Dylan's Reflections
