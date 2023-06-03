@@ -11,6 +11,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "a30812.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "https://a30812.github.io"
+repo: "https://github.com/A30812/a30812.github.io"
+docs: "https://github.com/A30812/documentation"
 logo: "/assets/0812.svg"
 color_scheme: "light"
 
@@ -58,7 +60,4 @@ keep_files:
 external_links:
   enabled: true
   rel: external
-  target: _top
-
-aux_links:
-  GitHub Repository: https://github.com/a30812/a30812.github.io/
+  target: _blank
