@@ -56,16 +56,17 @@
     {% endif %}
   </nav>
 
-  {% capture nav_footer_custom %}
-    {%- include nav_footer_custom.html -%}
-  {% endcapture %}
-  {% if nav_footer_custom != "" %}
-    {{ nav_footer_custom }}
-  {% else %}
     <footer class="site-footer">
-      Built with <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>
-	  <br />
-	  &copy;{{ site.time | date: '%Y' }} <a href="https://www.github.com/A30812/" rel="nofollow">0812</a>
+      <a href="{{ site.repo }}" class="icon" alt="">
+          <svg aria-hidden="true"><use href="#svg-github"></use></svg>
+      </a>
+      <a href="https://jekyllrb.com" class="icon">
+          <svg aria-hidden="true"><use href="#svg-jekyll"></use></svg>
+      </a>
+      <a href="{{ site.docs }}" class="icon">
+          <svg aria-hidden="true"><use href="#svg-doc"></use></svg>
+      </a>
+      <div>Built with <a href="https://github.com/just-the-docs/just-the-docs" class="link-hover" rel="nofollow">Just the Docs</a></div>
+      {% include components/copyright.html html=content beforeHeading="true" %}
     </footer>
-  {% endif %}
 </div>
