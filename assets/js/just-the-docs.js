@@ -87,7 +87,6 @@ function initSearch() {
         this.metadataWhitelist = ['position']
 
         for (var i in docs) {
-          {% include lunr/custom-index.js %}
           this.add({
             id: i,
             title: docs[i].title,
@@ -529,5 +528,3 @@ jtd.onReady(function(){
 {%- endif %}
 
 })(window.jtd = window.jtd || {});
-
-{% include js/custom.js %}
