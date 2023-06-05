@@ -200,15 +200,50 @@
   }
 
   h1,
-  h2,
   h3,
   h4,
   h5,
-  h6,
   #toctitle {
     position: relative;
     margin-top: 1.5em;
     margin-bottom: 0.25em;
+
+    + table,
+    + .table-wrapper,
+    + .code-example,
+    + .highlighter-rouge,
+    + .sectionbody .listingblock {
+      margin-top: 1em;
+    }
+
+    + p:not(.label) {
+      margin-top: 0;
+    }
+  }
+
+  h2 {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+
+    + table,
+    + .table-wrapper,
+    + .code-example,
+    + .highlighter-rouge,
+    + .sectionbody .listingblock {
+      margin-top: 1em;
+    }
+
+    + p:not(.label) {
+      margin-top: 0;
+    }
+  }
+
+  h6 {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 1em;
+    color: $grey-dk-000;
 
     + table,
     + .table-wrapper,
