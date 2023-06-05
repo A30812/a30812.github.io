@@ -28,7 +28,7 @@ Gurney, J. K. (2017). Imputing Driverhood: Applying a Reasonable Driver Standard
 Holstein, T. Dodig-Crnkovic, G., & Pelliccione, P. (2018). Ethical and Social Aspects of Self-Driving Cars. _arXiv, 1802_(04103), 2-7. [https://doi.org/10.48550/arXiv.1802.04103](https://doi.org/10.48550/arXiv.1802.04103)
 {: .reference}
 
-IHS. (2014). _Average Age of Vehicles on the Road Remains Steady at 11.4 Years, According to IHS Automotive_. IHS Automotive. [http://press.ihs.com/press-release/automotive/average-age-vehicles-road-remains-steady-114-years-according-ihs-automotive](https://web.archive.org/web/20160809052832/http://press.ihs.com/press-release/automotive/average-age-vehicles-road-remains-steady-114-years-according-ihs-automotive)
+IHS. (2014, June 9). _Average Age of Vehicles on the Road Remains Steady at 11.4 Years, According to IHS Automotive_. IHS Automotive. [http://press.ihs.com/press-release/automotive/average-age-vehicles-road-remains-steady-114-years-according-ihs-automotive](https://web.archive.org/web/20160809052832/http://press.ihs.com/press-release/automotive/average-age-vehicles-road-remains-steady-114-years-according-ihs-automotive)
 {: .reference}
 
 Karnouskos, S. (2021). The role of utilitarianism, self-safety, and technology in the acceptance of self-driving cars. _Cogn Tech Work, 23_, 659–667. [https://doi.org/10.1007/s10111-020-00649-6](https://doi.org/10.1007/s10111-020-00649-6)
